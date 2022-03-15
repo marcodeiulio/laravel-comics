@@ -130,3 +130,80 @@ ul li a:hover, ul li a.active, ul li a.active {
   font-size: 0.7rem;
   font-weight: bolder;
 }
+
+#upper-footer {
+  height: 450px;
+  width: 100%;
+  background-image: url("../img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#upper-footer .container {
+  display: flex;
+}
+#upper-footer h3 {
+  text-transform: uppercase;
+  color: white;
+  margin: 15px 0;
+}
+#upper-footer nav {
+  margin-right: 50px;
+}
+#upper-footer ul {
+  list-style-type: none;
+}
+#upper-footer ul li {
+  padding: 3px 0;
+}
+#upper-footer ul li a {
+  font-size: 0.8rem;
+  padding: 10px 0;
+  color: #797979;
+  text-transform: capitalize;
+}
+#upper-footer ul li a:hover {
+  text-decoration: underline;
+}
+
+.col-2 {
+  padding: 30px 0;
+}
+
+#footer-links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#footer-logo {
+  background-image: url("../img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#lower-footer {
+  background-color: #303030;
+  height: 100px;
+  text-transform: uppercase;
+}
+#lower-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#lower-footer h2 {
+  color: white;
+  font-size: 1.2em;
+}
+#lower-footer nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#lower-footer nav > * {
+  margin-right: 10px;
+}
+#lower-footer nav h2 {
+  color: #0282f9;
+}
