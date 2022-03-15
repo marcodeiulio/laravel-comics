@@ -251,6 +251,10 @@ Route::get('/', function () {
             'url' => '#'
         ],
         [
+            'title' => 'collectibles',
+            'url' => '#'
+        ],
+        [
             'title' => 'videos',
             'url' => '#'
         ],

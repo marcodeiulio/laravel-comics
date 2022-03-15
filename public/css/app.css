@@ -57,7 +57,7 @@ ul li a:hover, ul li a.active, ul li a.active {
 #jumbotron {
   height: 300px;
   width: 100%;
-  background-image: url(../assets/img/jumbotron.jpg);
+  background-image: url("../img/jumbotron.jpg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
