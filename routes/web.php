@@ -269,5 +269,5 @@ Route::get('/', function () {
     ];
 
 
-    return view('home', compact('header_menu')); //? oppure ['comics' => $comics]
+    return view('home', compact('header_menu', 'comics')); //? oppure ['comics' => $comics]
 })->name('home');
