@@ -19425,15 +19425,27 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
+/***/ "./resources/sass/comic_page.scss":
+/*!****************************************!*\
+  !*** ./resources/sass/comic_page.scss ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ 0:
-/*!*************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ***!
-  \*************************************************************/
+/*!**********************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/comic_page.scss ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /Users/reidar/dev/laravel/march/march_15th/laravel-comics/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/reidar/dev/laravel/march/march_15th/laravel-comics/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/reidar/dev/laravel/march/march_15th/laravel-comics/resources/sass/app.scss */"./resources/sass/app.scss");
+module.exports = __webpack_require__(/*! /Users/reidar/dev/laravel/march/march_15th/laravel-comics/resources/sass/comic_page.scss */"./resources/sass/comic_page.scss");
 
 
 /***/ })

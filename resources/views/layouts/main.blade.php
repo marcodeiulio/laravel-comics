@@ -6,7 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="{{asset('css/app.css')}}">
+
 	@yield('additional_styles')
+
 	<title>{{env('APP_NAME')}} | @yield('title')</title>
 </head>
 
