@@ -86,7 +86,7 @@
 					<h2>Follow Us</h2>
 					@foreach ($footer_socials as $social)
 					<a href="{{$social['href']}}">
-						<img src="{{$social['icon']}}" alt="{{$social['alt']}}" />
+						<img src="{{asset($social['icon'])}}" alt="{{$social['alt']}}" />
 					</a>
 					@endforeach
 				</nav>

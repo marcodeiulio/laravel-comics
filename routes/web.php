@@ -274,27 +274,27 @@ Route::get('/', function () {
     $footer_socials = [
         [
             'href' => "#",
-            'icon' => "asset('img/footer-facebook.png')",
+            'icon' => "img/footer-facebook.png",
             'alt' => "Facebook Logo",
         ],
         [
             'href' => "#",
-            'icon' => "asset('img/footer-twitter.png')",
+            'icon' => "img/footer-twitter.png",
             'alt' => "Twitter Logo",
         ],
         [
             'href' => "#",
-            'icon' => "asset('img/footer-youtube.png')",
+            'icon' => "img/footer-youtube.png",
             'alt' => "YouTube Logo",
         ],
         [
             'href' => "#",
-            'icon' => "asset('img/footer-pinterest.png')",
+            'icon' => "img/footer-pinterest.png",
             'alt' => "Pinterest Logo",
         ],
         [
             'href' => "#",
-            'icon' => "asset('img/footer-periscope.png')",
+            'icon' => "img/footer-periscope.png",
             'alt' => "Periscope Logo",
         ],
     ];
