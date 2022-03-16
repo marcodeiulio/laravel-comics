@@ -35,21 +35,20 @@ header {
   align-items: center;
   font-size: 0.8rem;
 }
-
-ul {
+header ul {
   list-style-type: none;
 }
-ul li {
+header ul li {
   display: inline-block;
   padding: 60px 10px;
 }
-ul li a {
+header ul li a {
   text-decoration: none;
   padding: 60px 0 55px 0;
   color: black;
   text-transform: uppercase;
 }
-ul li a:hover, ul li a.active, ul li a.active {
+header ul li a:hover, header ul li a.active, header ul li a.active {
   color: #0282f9;
   border-bottom: 5px solid #0282f9;
 }
