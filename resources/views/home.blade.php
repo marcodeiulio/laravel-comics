@@ -1,3 +1,8 @@
+@php
+$header_menu = config('header.header_menu');
+$footer_socials = config('footer.footer_socials');
+$footer_navs = config('footer.footer_navs');
+@endphp
 @extends('layouts.main')
 
 @section('title', 'Home')

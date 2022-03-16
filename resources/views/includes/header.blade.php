@@ -1,3 +1,7 @@
+@php
+$header_menu = config('header.header_menu');
+@endphp
+
 <header class="container">
 	<figure>
 		<a href="{{route('home')}}"><img src="{{ asset('img/dc-logo.png') }}" alt="DC Logo" /></a>

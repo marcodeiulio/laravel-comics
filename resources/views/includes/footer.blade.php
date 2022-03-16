@@ -1,3 +1,7 @@
+@php
+$footer_socials = config('footer.footer_socials');
+$footer_navs = config('footer.footer_navs');
+@endphp
 <footer>
 	<section id="upper-footer">
 		<div class="container">
