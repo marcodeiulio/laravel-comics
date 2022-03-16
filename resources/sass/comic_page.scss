@@ -1,0 +1,53 @@
+h2 {
+	color: #08405c;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+#sq-adv {
+	// background-color: blue; //TODO da eliminare
+	text-align: right;
+	flex-shrink: 0;
+	width: 300px;
+	img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+	figcaption {
+		color: #6d6e6d;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+}
+
+.comic-pres {
+	// flex-grow: 1;
+	padding: 20px;
+}
+
+.comic-header {
+	// display: inline-block;
+	background-color: #55ba59;
+	padding: 10px 20px;
+	font-size: 0.8rem;
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+	color: #a1f188;
+}
+
+.comic-header:first-of-type {
+	flex-grow: 1;
+	border-right: 1px solid black;
+}
+
+.comic-description {
+	color: #817873;
+	line-height: 1.5rem;
+	font-size: .9rem;
+}
+
+

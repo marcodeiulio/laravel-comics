@@ -22,5 +22,8 @@ Route::get('/', function () {
 
 Route::get('/comic', function () {
 
-    return view('comic');
+    $comics = config('comics');
+    $dummy_comic = $comics[0];
+
+    return view('comic', ['comics' => $dummy_comic]); //? oppure ['comics' => $comics]
 })->name('comic');
