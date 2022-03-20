@@ -36,5 +36,76 @@
 
 	</div>
 </div>
+<div class="about-comic">
+	<div class="container">
+		<div class="wrapper">
+			<div class="table-column">
+				<h3>Talent</h3>
+				<div class="table-element">
+					<table>
+						<tbody>
+							<tr>
+								<td>
+									<h4>Art by:</h4>
+								</td>
+								<td>
+									<ul>
+										@foreach ($comics['artists'] as $artist)
+										<li>{{$artist}},</li>
+										@endforeach
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<h4>Written by:</h4>
+								</td>
+								<td>
+									<ul>
+										@foreach ($comics['writers'] as $artist)
+										<li>{{$artist}},</li>
+										@endforeach
+									</ul>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="table-column">
+				<table>
+					<h3>Specs</h3>
+					<tbody>
+						<tr>
+							<td>
+								<h4>Series:</h4>
+							</td>
+							<td>
+								<p>{{$comics['series']}}</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>U.S. Price:</h4>
+							</td>
+							<td>
+								<p>{{$comics['price']}}</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h4>On Sale Date:</h4>
+							</td>
+							<td>
+								<p>{{$comics['sale_date']}}</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
 
-@endsection
+			</div>
+
+		</div>
+	</div>
+
+	@endsection
