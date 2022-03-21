@@ -4,10 +4,18 @@
 <link rel="stylesheet" href="{{asset('css/comic_page.css')}}">
 @endsection
 
-@section('title', 'comic') {{-- TODO da modificare --}}
+@section('title', $comics['title'])
 
 @section('content')
+<section id="jumbotron"></section>
+<div class="blue-banner">
+</div>
 <div class="container">
+	<figure class="comic-thumb">
+		<img src="{{$comics['thumb']}}" alt="{{$comics['title']}}">
+		<span class="label-narrow">Comic Book</span>
+		<span class="label-wide">View Gallery</span>
+	</figure>
 	<div class="wrapper">
 
 

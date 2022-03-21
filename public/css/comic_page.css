@@ -76,3 +76,46 @@ h2 {
 .table-element ul li {
   display: inline;
 }
+
+.blue-banner {
+  height: 80px;
+  width: 100%;
+  margin-bottom: 40px;
+  background-color: #0c7cec;
+}
+
+.container {
+  position: relative;
+}
+.container .comic-thumb {
+  position: absolute;
+  bottom: 350px;
+  left: 0;
+}
+.container .comic-thumb img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.container .comic-thumb .label-narrow {
+  background-color: #00a9d9;
+  color: white;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  padding: 6px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container .comic-thumb .label-wide {
+  width: 100%;
+  background-color: #00a9d9;
+  color: white;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  padding: 6px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
