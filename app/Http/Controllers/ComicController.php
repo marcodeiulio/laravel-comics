@@ -9,9 +9,9 @@ class ComicController extends Controller
     public function show($id)
     {
 
-        $comics = config('comics');
-        $dummy_comic = $comics[$id];
+        $comics_array = config('comics');
+        $comics = $comics_array[$id];
 
-        return view('comic', ['comics' => $dummy_comic]); //? oppure ['comics' => $comics]
+        return view('comic', compact('comics')); //? oppure ['comics' => $comics]
     }
 }
