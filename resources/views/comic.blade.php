@@ -17,8 +17,6 @@
 		<span class="label-wide">View Gallery</span>
 	</figure>
 	<div class="wrapper">
-
-
 		<div class="comic-pres">
 			<h2>{{$comics['title']}}</h2>
 			<div class="wrapper">
@@ -40,8 +38,6 @@
 				<img src="{{asset('img/adv.jpg')}}" alt="adv">
 			</figure>
 		</div>
-
-
 	</div>
 </div>
 <div class="about-comic">
