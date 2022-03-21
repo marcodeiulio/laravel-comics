@@ -13,8 +13,8 @@
 		{{-- BIGLABEL END --}}
 		<div class="wrapper">
 			{{-- COMIC CARD --}}
-			@forelse ($comics as $comic)
-			<a href="#" class="comic-card">
+			@forelse ($comics as $key => $comic)
+			<a href="{{route('comic', ['id' => $key])}}" class="comic-card">
 				<figure>
 					<img src="{{$comic['thumb']}}" alt="{{$comic['series']}}" />
 				</figure>
